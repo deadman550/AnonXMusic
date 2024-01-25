@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 200))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001635185514"))
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/KingEvil55/AnonXMusic",
+    "https://github.com/deadman550/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+BYBIiMT1VQY4NmZl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+BYBIiMT1VQY4NmZl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AppoloBotsUpdates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AppoloXCommunity")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/386ec18ed4577b122e17f.jpg"
+    "START_IMG_URL", "https://graph.org/file/bc4bc650dacb9fc2ea815.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/a9a4fe9f78217ae514307.jpg"
+    "PING_IMG_URL", "https://graph.org/file/bc4bc650dacb9fc2ea815.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
